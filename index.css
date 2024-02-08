@@ -1,0 +1,168 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.box{
+    width: 100vh;
+    height:100vh;
+    
+}
+    
+.image{
+    display: flex;
+    width: 210vh;
+    height: 50vh;
+    border-radius: 10%;
+    margin: 12px;
+
+}
+.htodo{
+    margin-top:-12px;
+    margin-left: 120%;
+    color: beige;
+    font-size: 50px;
+}
+.in{
+    align-items: center;
+    margin-top: -35vh;
+}
+#todobtn{
+    margin-left: 60%;
+    margin-top: -120vh;
+    border-radius: 20px;
+    background-color: #367bf5;
+    color: aliceblue;
+}
+/* 
+.main{
+    width: 48%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 5px solid white;
+    border-radius: 20px;
+    box-shadow: 2px 8px 4px rgba(77, 61, 61, 0.258);
+    position: fixed;
+    margin-left: 55vh;
+    margin-top: 3vh;
+    background-color: beige;
+    
+
+} */
+
+
+.popup{
+    position: fixed;
+    border-radius: 2rem;
+    border: 1px solid gray;
+    margin-top: 40px;
+    z-index:10 ;
+    background-color: bisque;
+    padding: 20px;
+    margin-left: 110px;
+    height: 330px;
+    width: 460px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 20px;
+    box-shadow: 2px 4px 6px grey;
+    line-height: 30px;
+    
+}
+#text-area{
+    border-radius: 10px;
+    border: 2px pink;
+}
+
+.main{
+    width: 50%;
+    height: 360px;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+    padding-left: 20px;
+    border-radius: 20px;
+    box-shadow: 2px 8px 4px gray;
+    position: fixed;
+    margin-left: 55vh;
+    margin-top: 0;
+    background-color:white;
+    overflow: hidden;
+
+}
+#addtodo{
+    background-color:  #367BF5;
+    border-radius: 20px;
+    color: white;
+    margin-left: -10px;
+    padding-left: 10px;
+    padding-right: 10px; 
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+    
+    
+}
+input{
+    border-radius: 10px;
+}
+#todo{
+    color: white;
+    display: flex;
+    margin-left: 400px;
+    font-size: 3rem;
+    
+    
+    
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -60px;
+    
+   
+   
+    
+}
+.alltodos{
+    border-bottom: 1px solid gray;
+    display: flex;
+    
+    align-items: center;
+    justify-content: space-between;
+}
+h2{
+   /* margin-bottom: -10px; */
+    
+}
+.del{
+    background-color:#EA3D2F;
+
+    margin-right: 60px;
+   
+    
+    
+}
+.abc{
+    margin-bottom: 20px;
+}
+#saving{
+    width: 50px;
+    background-color: blueviolet;
+    margin-top: 8px;
+    color: beige;
+}
+#cancelling{
+    width: 50px;
+    background-color: blueviolet;
+    margin-top: 8px;
+    color: beige;
+
+}
+.dnone{
+    display: none;
+}
